@@ -23,8 +23,10 @@
             <p class="data-facebook"></p>
             <p class="data-hobby"></p>
             <p class="data-sex"></p>
-            <p class="data-billede"></p>
+            <img src="" alt="">
         </article>
+
+
     </template>
 
     <script>
@@ -63,7 +65,7 @@
             klon.querySelector(".data-facebook").textContent = person.facebook;
             klon.querySelector(".data-hobby").textContent = person.hobby;
             klon.querySelector(".data-sex").textContent = person.sex;
-            klon.querySelector(".data-billede").textContent = person.billede;
+            klon.querySelector("img").src = person.billede;
 
 
 
